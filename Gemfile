@@ -31,4 +31,3 @@ gem 'spring',        group: :development
 gem 'ember-rails'
 gem 'ember-source', '1.5.0'
 
-gem 'cequel'

@@ -1,0 +1,19 @@
+development:
+  host: '127.0.0.1'
+  port: 9042
+  keyspace: inventorier_development
+
+test:
+  host: '127.0.0.1'
+  port: 9042
+  keyspace: inventorier_test
+
+production:
+  hosts:
+    - 'cass1.inventorier.biz'
+    - 'cass2.inventorier.biz'
+    - 'cass3.inventorier.biz'
+  port: 9042
+  keyspace: inventorier_production
+  username: 'myappuser'
+  password: 'password1'
